@@ -2,12 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no">
+    <link rel="stylesheet" href="css/estilos.css">
     <title>Manejo de Tablas</title>
   </head>
   <body>
+    <nav id="menu-principal">
+      <a href="vuelos_por_hora.html">Vuelos por hora</a>
+      <a href="vuelos_por_destinos.html">Vuelos por destino</a>
+    </nav>
     <h1><strong>Cartelera de vuelos - Aeropuerto El Mirador</strong></h1>
     <h2><strong>Llegadas</strong></h2>
-      <table border="1", cellpadding="5", cellspacing="0">
+      <table border="1">
         <thead>
           <tr>
             <th>Aerolínea</th>
@@ -16,7 +22,6 @@
             <th>Hora estimada</th>
             <th>Puerta</th>
           </tr>
-
         </thead>
         <tbody>
           <tr>
@@ -50,7 +55,7 @@
         </tbody>
       </table>
   <h2><strong>Salidas</strong></h2>
-  <table border="1", cellpadding="0", cellspacing="0">
+  <table border="1" class="sombra">
     <thead>
       <tr>
         <th>Aerolínea</th>
@@ -71,4 +76,7 @@
     </tbody>
   </table>
   </body>
+  <footer>
+    Derechos reservados
+  </footer
 </html>
